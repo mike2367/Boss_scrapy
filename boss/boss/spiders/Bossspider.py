@@ -5,7 +5,6 @@ from ..items import BossItem
 
 class BossspiderSpider(scrapy.Spider):
     name = "Bossspider"
-    
     json_url = "https://www.zhipin.com/wapi/zpgeek/search/joblist.json?scene=1&query=&city=101020100&page={}"
 
     def start_requests(self):
@@ -29,9 +28,8 @@ class BossspiderSpider(scrapy.Spider):
                     skills += i
                     skills += '\n'
                 item['job_skills'] = skills
-
-
+                num += 1
                 yield item
         except Exception as e:
-            print(e)
+            print(res)
 
