@@ -9,4 +9,12 @@ import scrapy
 class BossItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    job_name = scrapy.Field()
+    job_salary = scrapy.Field()
+    experience = scrapy.Field()
+    degree = scrapy.Field()
+    company_name = scrapy.Field()
+    city = scrapy.Field()
+    area = scrapy.Field()
+    job_skills = scrapy.Field()
+    
