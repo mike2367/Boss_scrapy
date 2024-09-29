@@ -26,8 +26,9 @@ original url: [https://www.zhipin.com/web/geek/job?city=101020100](https://www.z
 - Mysql script </br>
 - js reverse </br>
 
-- ### Update: Due to the modification of zhipin.com, the original cookie generation js environment has lost efficacy, usage now requires manual input of personal __zp_token__, located in /boss/boss/middlewares.py</br>
-- ### Each __zp_token__ should provide 5 times of access.
+- ### Update: Due to the recent modification of zhipin.com, the original cookie generating js environment has lost efficacy, usage now requires manual input of personal __zp_token__, located in /boss/boss/middlewares.py. </br>
+- ### Each __zp_token__ should provide 5 times of access. </br>
+- ### Advices on the updated JS reverse are widely appreciated.
 <img src="https://github.com/user-attachments/assets/4b1797e0-b0fa-4065-ab97-dfb0a579b53e"  width="500px" height="200px" class="center"> .
 <img src="https://github.com/user-attachments/assets/afdf6490-4d9f-44c0-87ca-22d9414d8d16"  width="500px" height="200px" class="center"> .
 
